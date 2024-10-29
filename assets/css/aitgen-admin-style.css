@@ -1,0 +1,172 @@
+/* Dashboard admin */
+
+.aitgen_api_instruction {
+	text-align: left;
+	background: #ccccdd59;
+	display: inline-block;
+	padding: 15px;
+	border-radius: 5px;
+}
+.api_instruction_title {}
+.aitgen_api_instruction ol {
+	margin: 0;
+	padding-left: 15px;
+}
+
+
+
+/*  Custom Alert Box Msg css */
+.aitgen-modal-dialog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* 100% of the viewport height */
+}
+.aitgen-modal-dialog .modal-content{
+	border-left: 3px solid #08a588;
+	border-radius: 3px;
+
+}
+.aitgen-modal-dialog .modal-body {
+	margin-bottom: 30px;
+}
+.aitgen-modal-dialog .generated_title {
+	font-size: 16px;
+}
+.aitgen-close {}
+
+
+/* Custom button for product image generator */
+.aitgen_product_image {
+	position: relative;
+}
+.aitgen_productImgGenerator {
+	position: absolute;
+	left: 5%;
+	bottom: 30%;
+	color: #fff;
+}
+
+/* Image Generator Popup */
+#aitgen_customImageGenerator .aitgen-modal-dialog .modal-content {
+	border-left: none;
+}
+.aitgen_generated_image_wrapper {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Loader lds for Image Generator Modal */
+.aitgen_generated_image_wrapper .lds-spinner {
+	position: absolute;
+	left: 45%;
+	top: 34%;
+	z-index: 99999;
+}
+
+.aitgen_generated_image_wrapper .form-check-input:checked {
+	background-color: transparent !important;
+	border-color: hsl(152, 91%, 42%);
+}
+.aitgen_generated_image_item {
+	flex-grow: 3;
+	order: 3;
+	flex-basis: 30%;
+	position: relative;
+}
+.aitgen_generated_image_item img {
+	min-width: 100%;
+}
+.aitgen_generated_Check {
+	position: absolute;
+	top: 7%;
+	left: 6%;
+}
+.aitgen_generated_image {
+	min-width: 100%;
+}
+
+.aitgen_generatingOption_box, 
+.aitgen_generating_method, 
+.aitgen_generatingImg_size {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.aitgen_generating_method .form-check {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.aitgen_generating_method .form-check-input:checked {
+	background-color: transparent !important;
+	border-color: hsl(152, 91%, 42%);
+}
+/* Suggested Title List */
+.aitgen_suggested_title_wrapper {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.aitgen_suggested_title_wrapper .lds-spinner {
+	position: absolute;
+	top: 34%;
+	left: 43%;
+}
+.aitgen_suggested_title_wrapper .aitgen_suggested_title_list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: none;
+}
+.aitgen_suggested_title_wrapper .aitgen_suggestedTitleList_item {
+	border-bottom: 2px dotted #ccc;
+	padding: 7px 5px;
+	cursor: pointer;
+	overflow: scroll;
+}
+.aitgen_suggested_title_wrapper .aitgen_suggestedTitleList_itemText {
+	text-decoration: none;
+	color: #555;
+	font-size: 16px;
+}
+
+/* Generated Post title */
+.aitgen_suggestedPost_title_wrapper{}
+
+.aitgen_suggestedPost_title_wrapper .aitgen_suggestedPost_title_list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: block;
+}
+
+.aitgen_suggestedPost_title_list .aitgen_suggestedTitleList_item {
+	border-bottom: 2px dotted #ccc;
+	padding: 7px 5px;
+	cursor: pointer;
+	overflow: scroll;
+}
+.aitgen_suggestedPost_title_list .aitgen_suggestedTitleList_item .aitgen_suggestedTitleList_itemText {
+	text-decoration: none;
+	color: #555 !important;
+}
+
+/* Generated Short Description */
+.aitgen_short_description_wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+.aitgen_short_description_wrapper .lds-spinner {
+	position: absolute !important;
+	left: 45% !important;
+	top: 45% !important;
+}
